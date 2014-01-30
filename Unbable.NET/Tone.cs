@@ -13,7 +13,7 @@ namespace Unbable.NET
 
         public String ToString()
         {
-            return String.Format("%s - %s",Name,Description);
+            return String.Format("{0} - {1}",Name,Description);
         }
     }
 }

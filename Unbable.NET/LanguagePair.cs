@@ -13,7 +13,7 @@ namespace Unbable.NET
 
         public String ToString()
         {
-            return String.Format("%s -> %s", Source.Name, Target.Name);
+            return String.Format("{0} -> {1}", Source.Name, Target.Name);
         }
     }
 }
